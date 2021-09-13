@@ -1,10 +1,11 @@
 {
-  "name":"oveleon/contao-advanced-form",
+  "name":"wugu/contao-advanced-form",
   "type":"contao-bundle",
   "description":"advanced-form extension for Contao Open Source CMS",
   "keywords":["contao","forms","condition","multi","multipage"],
   "homepage":"https://oveleon.de/",
   "license":"AGPL-3.0",
+  "version":"0.1",
   "authors":[
     {
       "name":"Oveleon",
@@ -20,10 +21,15 @@
       "name":"Fabian Ekert",
       "homepage":"https://github.com/eki89",
       "role":"Developer"
+    },
+    {
+      "name":"Gunnar Haeuschkel",
+      "homepage":"https://www.drum-und-dran.de",
+      "role":"Developer"
     }
   ],
   "require":{
-    "php":"^7.2",
+    "php":"^8.0",
     "contao/core-bundle":"^4.9",
     "codefog/contao-haste": "~4.24"
   },
